@@ -14,10 +14,10 @@
  * 克隆代码
  * 修改根目录wp-config文件为自己的数据库地址、账号、密码
         
-        define('DB_NAME', 'ssha');
-        define('DB_USER', 'root');
-        define('DB_PASSWORD', 'SSHAjlxh8!');
-        define('DB_HOST', 'test.sshmt.com');
+        define('DB_NAME', '');
+        define('DB_USER', '');
+        define('DB_PASSWORD', '');
+        define('DB_HOST', '');
             
  * 导入根目录wordpress.sql默认数据
      
