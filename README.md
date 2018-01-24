@@ -20,6 +20,11 @@
         define('DB_HOST', '');
             
  * 导入根目录wordpress.sql默认数据
+ * 修改数据库配置为项目网址
+         
+        update `wp_options` set `option_value` = '项目网址' where `option_id` = 1;
+        update `wp_options` set `option_value` = '项目网址' where `option_id` = 2;
+  
      
 ## 访问
     
